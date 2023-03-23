@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  background-color: #e2f9d9; /* complimentary background color */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #43c878; /* complimentary border color */
+  box-sizing: border-box; /* ensure the border doesn't affect the dimensions of the App element */
+}
+
+
+.Header1 {
+  color: #333;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 15px 0;
+}
+
+.Header {
+  color: #555;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.Question {
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.Answers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Answers button {
+  color: #fff;
+  background-color: #43c878;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  min-width: 200px;
+}
+
+.Answers button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.Answers button:active {
+  transform: translateY(0px);
+  box-shadow: none;
+}
